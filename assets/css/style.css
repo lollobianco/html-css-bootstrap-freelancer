@@ -7,10 +7,6 @@ img{
    border-radius: 20px;
 }
 
-#portfolio img{
-   margin: 10px 0;
-}
-
 .bg-darkblue{
    background-color: #2C3E50;
 }
@@ -31,8 +27,12 @@ img{
    width: 100px;
 }
 
-.line-1-color{
+.line-light{
    background-color: white;
+}
+
+.star-light{
+   color: white;
 }
 
 .fa-star{
@@ -49,10 +49,10 @@ img{
    margin: 20px 0;
 }
 
-.line-2-color{
+.line-dark{
    background-color: #2C3E50; 
 }
 
-.star-2-color{
+.star-dark{
    color: #2C3E50;
 }
