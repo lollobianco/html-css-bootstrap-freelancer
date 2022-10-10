@@ -20,20 +20,20 @@
    <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-darkblue">
          <div class="container">
-           <a class="navbar-brand fw-semibold" href="#">START BOOTSTRAP</a>
+           <a class="navbar-brand fw-semibold fs-3" href="#">START BOOTSTRAP</a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
            <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav ms-auto">
                <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                 <a class="nav-link active fs-5" aria-current="page" href="#portfolio">PORTFOLIO</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#about">ABOUT</a>
+                 <a class="nav-link fs-5" href="#about">ABOUT</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">CONTACT</a>
+                 <a class="nav-link fs-5" href="#contact">CONTACT</a>
                </li>
              </ul>
            </div>
@@ -48,15 +48,15 @@
          <div class="container text-white text-center">
 
             <img src="./assets/img/avatar.svg" alt="avatar" id="avatar">
-            <h1 class="title fw-semibold">START BOOTSTRAP</h1>
+            <h1 class="title fw-semibold fs-1 mt-3">START BOOTSTRAP</h1>
                   
-            <div class="divider-container d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center my-3">
                <span class="line line-light"></span>
-               <span><i class="fa-solid fa-star star-light"></i></span>
+               <span><i class="fa-solid fa-star star-light px-2 fs-2"></i></span>
                <span class="line line-light"></span>
             </div>
 
-            <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
+            <span class="fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
             
          </div>
 
@@ -64,9 +64,9 @@
 
       <section class="" id="portfolio">
             <h2 class="text-center">PORTFOLIO</h2>
-            <div class="divider-container d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center my-3">
                <span class="line line-dark"></span>
-               <span><i class="fa-solid fa-star star-dark"></i></span>
+               <span><i class="fa-solid fa-star star-dark px-2 fs-2"></i></span>
                <span class="line line-dark"></span>
             </div>
             <div class="container-sm">
@@ -119,23 +119,61 @@
 
          <h2 class="text-center text-white">ABOUT</h2>
 
-         <div class="divider-container d-flex justify-content-center align-items-center">
+         <div class="d-flex justify-content-center align-items-center  my-3">
             <span class="line line-light"></span>
-            <span><i class="fa-solid fa-star star-light"></i></span>
+            <span><i class="fa-solid fa-star star-light px-2 fs-2"></i></span>
             <span class="line line-light"></span>
          </div>
 
          <div class="container-md">
             <div class="row justify-content-center text-white">
-               <div class="col-8 col-md-6 mb-3">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
-               <div class="col-8 col-md-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+               <p class="col-8 col-md-6 mb-3 fs-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+               <p class="col-8 col-md-6 fs-5">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>  
          </div>
 
          <div class="text-center mt-3">
-            <button type="button" class="btn btn-outline-light"><i class="pe-2 fa-solid fa-download"></i>Download</button>
+            <button type="button" class="btn btn-outline-light fs-5"><i class="pe-2 fa-solid fa-download"></i>Download</button>
          </div>
          
+      </section>
+
+      <section class="" id="contact">
+
+         <h2 class="text-center text-black">CONTACT ME</h2>
+
+         <div class="d-flex justify-content-center align-items-center  my-3">
+            <span class="line line-dark"></span>
+            <span><i class="fa-solid fa-star star-dark px-2 fs-2"></i></span>
+            <span class="line line-dark"></span>
+         </div>
+
+         <div class="container-md">
+            <div class="row justify-content-center text-black">
+               <div class="col-8 col-md-12 mb-3 fs-5">
+
+                  <div class="mb-3">
+                     <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 fs-5" id="exampleFormControlInput1" placeholder="Name">
+                   </div>
+
+                   <div class="mb-3">
+                     <input type="email" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 fs-5" id="exampleFormControlInput1" placeholder="Email address">
+                   </div>
+                  
+                  <div class="mb-3">
+                     <input type="number" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 fs-5" id="exampleFormControlInput1" placeholder="Phone Number">
+                   </div>
+
+                   <div class="mb-3">
+                     <textarea class="form-control border-top-0 border-end-0 border-start-0 rounded-0 fs-5" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                   </div>
+                   
+                   <button type="submit" class="btn btn-primary mb-3 border-0 fs-5" id="send-button">Send</button>
+
+               </div>
+            </div>  
+         </div>
+
       </section>
    </main>
    
