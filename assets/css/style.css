@@ -54,3 +54,7 @@ img{
 .start-bootstrap{
    color: #1ABC9C;
 }
+
+input::placeholder, textarea::placeholder{
+   color: #2C3E50 !important;
+}
